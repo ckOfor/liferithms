@@ -40,17 +40,9 @@ export const saveActivityAsync = (data: ICreateActivity): ThunkAction<
   const activities = getState().user.data
   const id = activities.length + 1
 
-  const dateCreated = '2019-01-21T05:53:02.833Z'
-
   const newData = {
-    // ...data,
+    ...data,
     id,
-    name: data.name,
-    description: data.description,
-    startTime: data.startTime,
-    endTime: data.endTime,
-    dateCreated,
-    dateUpdated: dateCreated
   }
   
   dispatch(saveActivity())

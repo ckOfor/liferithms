@@ -194,6 +194,7 @@ export const ViewActivityComponent: React.FC = (props: Props) => {
       okType: 'danger',
       cancelText: 'No',
       onOk() {
+        props.form.resetFields()
         deleteActivityAsync(selectedActivityId)
       },
       onCancel() {
