@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you use Safari browser please visit [The Liferithm App](https://liferithms.herokuapp.com). to view hosted app.
 
 ## Available Scripts
 
