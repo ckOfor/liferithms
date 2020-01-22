@@ -1,4 +1,4 @@
-If you use Safari browser please visit [The Liferithm App](https://liferithms.herokuapp.com). to view hosted app.
+If you use Safari browser on your phone or laptop, kindly visit [The Liferithm App](https://liferithms.herokuapp.com). to view hosted app.
 
 ## Available Scripts
 
